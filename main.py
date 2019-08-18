@@ -20,9 +20,9 @@ random_topic = random.choice(os.listdir(data_dir))
 topic_dir = os.path.join(data_dir, random_topic)
 quote_file = os.path.join(topic_dir, random.choice(os.listdir(topic_dir)))
 with open(quote_file, "r") as f:
-    content = f.read().split("-")
+    content = f.read().rpartition("-")
     quote = content[0]
-    author = colored(content[1], 'magenta', attrs=["bold"])
+    author = colored(content[2], 'magenta', attrs=["bold"])
 
 name = colored(name, 'cyan', attrs=["bold"])
 print(phrase + " " + name + "!", end="\n\n")
