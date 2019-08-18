@@ -1,0 +1,1 @@
+Game theory is a branch of, originally, applied mathematics, used mostly in economics and political science, a little bit in biology, that gives us a mathematical taxonomy of social life, and it predicts what people are likely to do and believe others will do in cases where everyone's actions affect everyone else. - Colin Camerer
